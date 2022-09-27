@@ -72,3 +72,13 @@ h1{
 .card-text{
     height: 150px;
 }
+
+@media screen and (max-width: 480px) {
+    .nav {
+        display: inline-block;
+    }
+    .nav-pills .nav-link {
+        border-radius: 0.25rem;
+        margin-bottom: 20px;
+    }
+}
